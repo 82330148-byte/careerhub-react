@@ -1,0 +1,32 @@
+CareerHub - Week 4 Style Implementation
+
+Architecture:
+React (frontend) -> Axios -> Express APIs -> MySQL (XAMPP)
+
+Implemented features:
+- Register and Login using users table
+- Logout and LocalStorage user session
+- User Profile: SELECT and UPDATE user information
+- Jobs: SELECT all and SELECT one
+- Admin Jobs: INSERT, UPDATE, DELETE
+- Saved Jobs: SELECT, INSERT, DELETE
+- Applications: INSERT with CV upload (Multer) and SELECT user applications
+- Contact Messages: INSERT
+- Admin Dashboard: counts, applications, messages, application status update
+- Responsive React pages and protected routes
+
+Run backend:
+cd backend
+npm install
+npm run dev
+
+Run frontend in another terminal:
+cd frontend
+npm install
+npm run dev
+
+Database:
+Run backend/schema.sql in phpMyAdmin.
+To make your account admin:
+UPDATE users SET role='admin' WHERE email='your@email.com';
+Then logout and login again.

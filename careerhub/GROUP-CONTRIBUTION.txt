@@ -1,0 +1,11 @@
+Group Contribution Statement
+
+This project was completed individually by Yehya Naser Dine.
+I was responsible for:
+- Frontend design and React development
+- Node.js and Express backend development
+- MySQL database design and integration
+- Authentication, CRUD operations, and file upload
+- Testing and debugging
+- Git and GitHub version control
+- Documentation and frontend deployment

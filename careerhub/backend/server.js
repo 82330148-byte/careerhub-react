@@ -43,7 +43,7 @@ const db = mysql.createConnection({
 
 db.connect((error) => {
   if (error) {
-    console.error("Database connection failed:", error.message);
+    console.error("Database connection failed:", error);
     return;
   }
   console.log("Connected to careerhub_db.");

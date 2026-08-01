@@ -28,7 +28,7 @@ npm install
 npm run dev
 
 The backend runs on:
-http://localhost:5000
+https://careerhub-react-production.up.railway.app
 
 3) FRONTEND
 -----------

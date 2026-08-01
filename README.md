@@ -66,7 +66,7 @@ npm run dev
 The API will run at:
 
 ```text
-http://localhost:5000
+https://careerhub-react-production.up.railway.app
 ```
 
 ### 4. Run the frontend
